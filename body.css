@@ -1,0 +1,147 @@
+/* ПРЕИМУЩЕСТВА  */
+.shopwithus {
+	text-align: center;
+}
+
+.yellowline {
+	margin: auto;
+	width: 4.4rem;
+	height: 0.5rem;
+	background-color: #debe80;
+	margin-bottom: 3rem;
+}
+
+.section2-flex {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 1fr;
+	justify-content: center;
+	margin-bottom: 5rem;
+}
+.flex-container {
+	justify-content: center;
+	width: 22.4rem;
+	height: 16.5rem;
+	background-color: #695553;
+	color: white;
+	border: 1px solid #695553;
+	border-radius: 0.7rem;
+}
+.flex-container img {
+	display: inline-block;
+	margin-top: 3rem;
+}
+.flex-container p {
+	line-height: 1.5rem;
+	margin: 0;
+	font-weight: 500;
+}
+.flex-container h3 {
+	margin-bottom: 0.5rem;
+}
+/* ABOUT COMPANY */
+.section-three {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	column-gap: 5rem;
+	color: white;
+	height: 30rem;
+	margin-bottom: 2rem;
+	display: flex;
+
+	background-image: linear-gradient(
+		to right,
+		rgba(255, 255, 255, 0.589),
+		#695553,
+		#5c4644,
+		#4a322f
+	);
+}
+
+.arrivals h2 {
+	margin-top: 4rem;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 3.2rem;
+	margin-bottom: 0.8rem;
+}
+
+.arrivals p {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6rem;
+}
+.section-three button {
+	margin-top: 1.2rem;
+	border-radius: 0.2rem;
+	background-color: #debe80;
+	padding: 0.9rem 2.8rem;
+	border: 1px solid #debe80;
+	box-shadow: 5px 5px 10px black;
+
+	font-size: 1rem;
+	font-weight: bold;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	transition: 0.5s;
+}
+.section-three button:hover {
+	background-color: rgba(255, 255, 255, 0);
+	color: #debe80;
+	cursor: pointer;
+}
+/* PRODUCTS */
+.headers:hover {
+	cursor: pointer;
+}
+.goods-section {
+	margin-bottom: 10rem;
+}
+.headers {
+	margin-top: 4rem;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 2.8rem;
+	margin-bottom: 0.8rem;
+	text-align: center;
+}
+.goods-container-grid {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 22rem 22rem 22rem;
+	column-gap: 2rem;
+	row-gap: 2rem;
+}
+.item-container {
+	position: relative;
+	display: grid;
+	grid-template-rows: 19rem 1fr;
+	border: 1px solid rgb(194, 194, 194);
+	width: 22rem;
+	height: 21rem;
+	box-shadow: 12px 12px 3px rgba(138, 138, 138, 0.589);
+}
+.item-info {
+	display: flex;
+	justify-content: space-between;
+	padding: 0rem 0.5rem;
+	margin-bottom: 0.4rem;
+	align-items: center;
+	/*  */
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+.item-info p {
+	margin-bottom: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
+}
+.img-centered {
+	display: flex;
+	width: 22rem;
+	height: 21rem;
+	justify-content: center;
+	z-index: 1;
+}
+.item-name {
+	font-weight: bold;
+}
