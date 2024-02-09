@@ -3,54 +3,39 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Хлопковое Достояние l Главная</title>
-		<link rel="stylesheet" href="styles.css" />
+		<title>Хлопковое Достояние | Новая Версия</title>
+		<link rel="stylesheet" href="fonts.css" />
+		<link rel="stylesheet" href="general.css" />
+		<link rel="stylesheet" href="head.css" />
+		<link rel="stylesheet" href="body.css" />
+		<link rel="stylesheet" href="tail.css" />
 		<link rel="icon" href="images/favicon3.png" />
-
-		<!-- New Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,600;0,800;0,900;1,900&family=Roboto:ital,wght@0,300;1,100;1,300&display=swap"
-			rel="stylesheet"
-		/>
-		<!-- FONTS -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Noto+Sans:ital,wght@0,300;0,600;0,800;0,900;1,900&family=Roboto:ital,wght@0,300;1,100;1,300&display=swap"
-			rel="stylesheet"
-		/>
-		<!-- FONTS FOR ITEMS -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Noto+Sans:ital,wght@0,300;0,600;0,800;0,900;1,900&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&family=Roboto:ital,wght@0,300;1,100;1,300&display=swap"
-			rel="stylesheet"
-		/>
 	</head>
 	<body>
+		<!-- HEADER | NAVIGATION -->
 		<header>
 			<div class="content-spacing">
 				<nav>
 					<div id="main">
-						<a href="index.html">
+						<a href="index.html	">
 							<img src="images/logoN.png" class="logo" />
 						</a>
 					</div>
 					<div>
 						<ul>
 							<li>
-								<a href="#"><span style="color: #debe80">ГЛАВНАЯ</span></a>
+								<a id="main-href" href="#"
+									><span style="color: #debe80">ГЛАВНАЯ</span></a
+								>
 							</li>
 							<li>
 								<a href="#"
 									>СТРАНИЦЫ <img src="images/dropdown.png" class="dropdown"
 								/></a>
 							</li>
-							<li><a href="#">ТОВАРЫ</a></li>
+							<li><a href="#goods">ТОВАРЫ</a></li>
 							<li><a href="#">БЛОГ</a></li>
-							<li><a href="#">КОНТАКТЫ</a></li>
+							<li><a href="#footer">КОНТАКТЫ</a></li>
 							<li>
 								<a href="#"><img src="images/cart.png" class="nav-img" /></a>
 							</li>
@@ -62,7 +47,7 @@
 				</nav>
 			</div>
 		</header>
-		<!-- SECTION 1 -->
+		<!-- MAIN | BACKGROUND IMAGE -->
 		<section class="sale-section">
 			<div class="content-spacing">
 				<div class="saleoff-container">
@@ -79,7 +64,8 @@
 			</div>
 		</section>
 		<!-- SECTION 2 -->
-		<section class="shopwithus">
+		<!-- ПРЕИМУЩЕСТВА | 3 ДИВА -->
+		<section class="shopwithus" id="advantages">
 			<h2 class="headers">
 				<span style="font-weight: 600">НАШИ</span>
 				<span style="font-weight: 700">ПРЕИМУЩЕСТВА</span>
@@ -87,6 +73,7 @@
 			<div class="yellowline"></div>
 			<div class="content-spacing">
 				<div class="section2-flex">
+					<!-- 1 -->
 					<div class="flex-container">
 						<img src="images/Vectors/Cutton.svg" class="shopinfo" />
 						<h3>Lorem Ipsum</h3>
@@ -95,6 +82,7 @@
 							Ipsum available
 						</p>
 					</div>
+					<!-- 2 -->
 					<div class="flex-container">
 						<img src="images/Vectors/Quality.svg" class="shopinfo" />
 						<h3>Lorem ipsum</h3>
@@ -103,6 +91,7 @@
 							Ipsum available
 						</p>
 					</div>
+					<!-- 3 -->
 					<div class="flex-container">
 						<img src="images/Vectors/Box.svg" class="shopinfo" />
 						<h3>Lorem Ipsum</h3>
@@ -114,7 +103,7 @@
 				</div>
 			</div>
 		</section>
-		<!-- SECTION 3 -->
+		<!-- ABOUT COMPANY -->
 		<section class="section-three">
 			<img
 				src="images/shutterstock_2223733319 1.png"
@@ -123,16 +112,17 @@
 			<div class="arrivals">
 				<h2>О Компании</h2>
 				<p>
-					Lorem ipsum dolor sit amet consectetur. Viverra quam dictum
-					pellentesque augue quam tristique ornare. Risus tristique convallis
-					vitae diam dui nunc diam lorem. Sollicitudin auctor eget nunc viverra
-					justo ac morbi urna ut. Vel porta sagittis diam pellentesque eu turpis
-					malesuada aliquam.
+					Lorem ipsum dolor sit amet consectetur. Viverra <br />
+					quam dictum pellentesque augue quam tristique <br />
+					ornare. Risus tristique convallis vitae diam dui nunc <br />
+					diam lorem. Sollicitudin auctor eget nunc viverra <br />
+					justo ac morbi urna ut. Vel porta sagittis diam <br />
+					pellentesque eu turpis malesuada aliquam.
 				</p>
 				<a href="#"><button class="">Lorem Ipsum</button></a>
 			</div>
 		</section>
-		<!-- SECTION 4 -->
+		<!-- PRODUCTS -->
 		<section class="goods-section">
 			<h2 id="goods" class="headers">
 				<span style="font-weight: 600">НАША</span>
@@ -203,7 +193,7 @@
 				</div>
 			</div>
 		</section>
-		<!-- SECTION 5 -->
+		<!-- SUBSCRIBE SECTION -->
 		<section class="input-section">
 			<h3>ПОДПИСАТЬСЯ И ПОЛУЧИТЬ СКИДКУ</h3>
 			<p>
@@ -217,7 +207,7 @@
 				</form>
 			</div>
 		</section>
-		<!-- SECTION 6 -->
+		<!-- TEAM SECTION -->
 		<section class="team-section">
 			<h1>НАША КОМАНДА</h1>
 			<div class="yellowline"></div>
@@ -235,11 +225,11 @@
 					<p class="member-position">Дизайнер Одежды</p>
 				</div>
 				<div class="button-container">
-					<button class="team-btn">
-						<a href="##">
+					<a class="" href="#main">
+						<button class="team-btn">
 							<img src="images/Vectors/Arrow-Right.svg" class="arrow" />
-						</a>
-					</button>
+						</button>
+					</a>
 				</div>
 			</div>
 			<p class="description">
@@ -251,34 +241,51 @@
 				malesuada aliquam.
 			</p>
 		</section>
-		<!-- FOOTER -->
-		<footer>
+		<!-- FOOTER SECTION -->
+		<footer id="footer">
+			<!-- Left -->
 			<div class="footer-left-section">
 				<img src="images/logoN.png" class="footer-logo" />
 				<p class="company-details">
-					<span class="bold-txt">Адрес:</span> Республика Узбекистан,<br />
-					г.Ташкент ул.Навои д.169
+					<span class="bold-txt">Адрес:</span>
+					<a
+						href="https://yandex.uz/maps/10337/nukus/house/YUAYcAZiTkwCQFpofXh0cnRhbQ==/?ll=59.612604%2C42.453624&z=17.17"
+						target="_blank"
+						>Республика Узбекистан,<br />
+						г.Ташкент ул.Навои д.169</a
+					>
 				</p>
-				<p><span class="bold-txt">Телефон:</span> +998 91 123 45 67</p>
-				<p><span class="bold-txt">Email:</span> uzcotton@gmail.com</p>
+				<p><span class="bold-txt">Телефон:</span> +998 (91) 123 45 67</p>
+				<p>
+					<span class="bold-txt">Email:</span
+					><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+						uzcotton@gmail.com</a
+					>
+				</p>
 			</div>
+			<!-- Middle -->
 			<div class="footer-middle-section">
 				<h1>МЕНЮ</h1>
-				<p><a href="#main">Главная</a></p>
+				<p>
+					<a href="#main"
+						><span style="color: #695553; font-weight: 700">ГЛАВНАЯ</span></a
+					>
+				</p>
 				<p><a href="##">О НАС</a></p>
-				<p><a href="##">ПРЕИМУЩЕСТВА</a></p>
-				<p><a href="##">ПРОДУКЦИЯ</a></p>
+				<p><a href="#advantages">ПРЕИМУЩЕСТВА</a></p>
+				<p><a href="#goods">ПРОДУКЦИЯ</a></p>
 				<p><a href="##">КОНТАКТЫ</a></p>
 			</div>
+			<!-- Right -->
 			<div class="footer-right-section">
 				<h1>
 					ПОДПИСАТЬСЯ <br />
 					И ПОЛУЧИТЬ СКИДКУ
 				</h1>
-				<form action="">
+				<form>
 					<input type="text" placeholder="Введите адрес электронной почты" />
+					<button type="submit">ПОДПИСАТЬСЯ</button>
 				</form>
-				<button>ПОДПИСАТЬСЯ</button>
 			</div>
 		</footer>
 	</body>
