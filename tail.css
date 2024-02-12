@@ -123,10 +123,12 @@ footer {
 	font-size: 0.9rem;
 	font-weight: 500;
 	color: #747474;
+	transition: 0.5s;
 }
 .footer-middle-section p a:hover {
 	text-decoration: none;
 	font-weight: 700;
+	padding-left: 0.2rem;
 }
 .footer-middle-section {
 	line-height: 0.65rem;
