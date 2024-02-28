@@ -10,6 +10,11 @@
 		<link rel="stylesheet" href="body.css" />
 		<link rel="stylesheet" href="tail.css" />
 		<link rel="icon" href="images/favicon3.png" />
+		<link rel="stylesheet" href="swiper.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
 	</head>
 	<body>
 		<!-- HEADER | NAVIGATION -->
@@ -28,14 +33,13 @@
 									><span style="color: #debe80">ГЛАВНАЯ</span></a
 								>
 							</li>
-							<li>
-								<a href="#"
-									>СТРАНИЦЫ <img src="images/dropdown.png" class="dropdown"
-								/></a>
-							</li>
 							<li><a href="#goods">ТОВАРЫ</a></li>
 							<li><a href="#">БЛОГ</a></li>
-							<li><a href="#footer">КОНТАКТЫ</a></li>
+							<li>
+								<a href="/page 2 ( contacts)/index.html" target="_blank"
+									>КОНТАКТЫ</a
+								>
+							</li>
 							<li>
 								<a href="#"><img src="images/cart.png" class="nav-img" /></a>
 							</li>
@@ -194,7 +198,7 @@
 			</div>
 		</section>
 		<!-- SUBSCRIBE SECTION -->
-		<section class="input-section">
+		<!-- <section class="input-section">
 			<h3>ПОДПИСАТЬСЯ И ПОЛУЧИТЬ СКИДКУ</h3>
 			<p>
 				Lorem ipsum dolor sit amet consectetur. Viverra quam dictum pellentesque
@@ -206,40 +210,88 @@
 					<button type="submit" class="input-btn">ПОДПИСАТЬСЯ</button>
 				</form>
 			</div>
-		</section>
+		</section> -->
 		<!-- TEAM SECTION -->
 		<section class="team-section">
 			<h1>НАША КОМАНДА</h1>
 			<div class="yellowline"></div>
-			<div class="team-member-container">
-				<div class="button-container">
-					<button class="team-btn">
-						<a href="##">
-							<img src="images/Vectors/Arrow.svg" class="arrow" />
-						</a>
-					</button>
+
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="images/Team/Profile.jpg" />
+						<p class="member-name">Анна Трэвор</p>
+						<p class="member-position">Дизайнер Одежды</p>
+
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur. Viverra quam dictum
+							pellentesque augue quam tristique <br />
+							ornare. Risus tristique convallis vitae diam dui nunc diam lorem.
+							Sollicitudin auctor eget nunc viverra <br />
+							justo ac morbi urna ut. Vel porta sagittis diam pellentesque eu
+							turpis malesuada aliquam.
+						</p>
+					</div>
+					<div class="swiper-slide">
+						<img src="images/Team/Profile.jpg" />
+						<p class="member-name">Анна Трэвор</p>
+						<p class="member-position">Дизайнер Одежды</p>
+
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur. Viverra quam dictum
+							pellentesque augue quam tristique <br />
+							ornare. Risus tristique convallis vitae diam dui nunc diam lorem.
+							Sollicitudin auctor eget nunc viverra <br />
+							justo ac morbi urna ut. Vel porta sagittis diam pellentesque eu
+							turpis malesuada aliquam.
+						</p>
+					</div>
+					<div class="swiper-slide">
+						<img src="images/Team/Profile.jpg" />
+						<p class="member-name">Анна Трэвор</p>
+						<p class="member-position">Дизайнер Одежды</p>
+
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur. Viverra quam dictum
+							pellentesque augue quam tristique <br />
+							ornare. Risus tristique convallis vitae diam dui nunc diam lorem.
+							Sollicitudin auctor eget nunc viverra <br />
+							justo ac morbi urna ut. Vel porta sagittis diam pellentesque eu
+							turpis malesuada aliquam.
+						</p>
+					</div>
+					<div class="swiper-slide">
+						<img src="images/Team/Profile.jpg" />
+						<p class="member-name">Анна Трэвор</p>
+						<p class="member-position">Дизайнер Одежды</p>
+
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur. Viverra quam dictum
+							pellentesque augue quam tristique <br />
+							ornare. Risus tristique convallis vitae diam dui nunc diam lorem.
+							Sollicitudin auctor eget nunc viverra <br />
+							justo ac morbi urna ut. Vel porta sagittis diam pellentesque eu
+							turpis malesuada aliquam.
+						</p>
+					</div>
+					<div class="swiper-slide">
+						<img src="images/Team/Profile.jpg" />
+						<p class="member-name">Анна Трэвор</p>
+						<p class="member-position">Дизайнер Одежды</p>
+
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur. Viverra quam dictum
+							pellentesque augue quam tristique <br />
+							ornare. Risus tristique convallis vitae diam dui nunc diam lorem.
+							Sollicitudin auctor eget nunc viverra <br />
+							justo ac morbi urna ut. Vel porta sagittis diam pellentesque eu
+							turpis malesuada aliquam.
+						</p>
+					</div>
 				</div>
-				<div class="middle-div">
-					<img src="images/Team/Profile.jpg" class="member-profile" />
-					<p class="member-name">Анна Трэвор</p>
-					<p class="member-position">Дизайнер Одежды</p>
-				</div>
-				<div class="button-container">
-					<a class="" href="#main">
-						<button class="team-btn">
-							<img src="images/Vectors/Arrow-Right.svg" class="arrow" />
-						</button>
-					</a>
-				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
 			</div>
-			<p class="description">
-				Lorem ipsum dolor sit amet consectetur. Viverra quam dictum pellentesque
-				augue quam tristique <br />
-				ornare. Risus tristique convallis vitae diam dui nunc diam lorem.
-				Sollicitudin auctor eget nunc viverra <br />
-				justo ac morbi urna ut. Vel porta sagittis diam pellentesque eu turpis
-				malesuada aliquam.
-			</p>
 		</section>
 		<!-- FOOTER SECTION -->
 		<footer id="footer">
@@ -288,5 +340,14 @@
 				</form>
 			</div>
 		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script>
+			var swiper = new Swiper('.mySwiper', {
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			})
+		</script>
 	</body>
 </html>
