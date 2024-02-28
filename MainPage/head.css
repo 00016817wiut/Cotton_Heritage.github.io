@@ -1,0 +1,65 @@
+/* HEADER | NAVIGATION */
+.content-spacing {
+	margin: auto;
+	width: 60%;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem 0 0.5rem 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	font-weight: bold;
+	margin-right: 2rem;
+}
+nav ul li a {
+	transition: 0.3s;
+}
+
+nav ul li a:hover {
+	color: #8d8d8d;
+	text-decoration: none;
+}
+/* MAIN | BACKGROUND IMAGE */
+.sale-section {
+	height: 90vh;
+	width: 100%;
+	background-image: url('images/backimg3.jpg');
+	background-size: cover;
+}
+.saleoff-container {
+	padding-top: 9.4rem;
+	width: 33rem;
+}
+.saleoff-container h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 4.4rem;
+	line-height: 4.6rem;
+	margin-bottom: 0.5rem;
+}
+.saleoff-container p {
+	margin-left: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6rem;
+}
+.saleoff-container button {
+	margin-top: 1.2rem;
+	background-color: #debe80;
+	padding: 0.9rem 2.8rem;
+	border: 1px solid #debe80;
+	font-size: 1rem;
+	font-weight: bold;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	transition: 0.5s;
+}
+.saleoff-container button:hover {
+	background-color: rgba(255, 255, 255, 0);
+	color: #695553;
+	cursor: pointer;
+}
