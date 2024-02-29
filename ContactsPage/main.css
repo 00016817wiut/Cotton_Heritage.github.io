@@ -9,23 +9,66 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.5;
+	min-height: 100vh;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: underline;
+}
+/* IMG */
+.logo {
+	width: 5rem;
+}
+.nav-img {
+	width: 1rem;
+}
+/* HEAD */
+.content-spacing {
+	margin: auto;
+	width: 60%;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem 0 0.5rem 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	font-weight: bold;
+	margin-right: 2rem;
+}
+nav ul li a {
+	transition: 0.3s;
+}
+
+nav ul li a:hover {
+	color: #8d8d8d;
+	text-decoration: none;
 }
 /* HEADER */
 .contact-bg {
-	height: 40vh;
+	height: 50vh;
 	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-		url(images/promyshlennoe.jpg);
+		url(images/y.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center bottom;
 	text-align: center;
-	color: white;
+	color: rgb(255, 255, 255);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
+
 .contact-bg h3 {
 	font-size: 1.3rem;
 	font-weight: 400;
@@ -218,7 +261,7 @@ textarea {
 	transition: 0.5s;
 }
 .social-links a:hover {
-	box-shadow: 1px 1px 15px #debe80;
+	box-shadow: 0px 0px 15px #debe80;
 }
 
 /* РЕСПОНСИВ */
