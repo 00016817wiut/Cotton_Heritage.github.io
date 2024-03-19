@@ -4,43 +4,42 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Хлопковое Достояние | Контакты</title>
-		<link rel="stylesheet" href="ContactsPage/main.css" />
-		<link rel="icon" href="ContactsPage/images/fav-icon/favicon3.png" />
+		<link rel="stylesheet" href="css/contacts.css" />
+		<link rel="stylesheet" href="css/fonts.css" />
+		<link rel="icon" href="/images/fav-icon/favicon.png" />
 		<script
 			src="https://kit.fontawesome.com/fe8b173df6.js"
 			crossorigin="anonymous"
 		></script>
 	</head>
 	<body>
-		<header>
-			<div class="content-spacing">
-				<nav>
-					<div id="main">
-						<a href="index.html	">
-							<img src="MainPage/images/logoN.png" class="logo" />
-						</a>
-					</div>
-					<div>
-						<ul>
-							<li>
-								<a id="main-href" href="index.html">ГЛАВНАЯ</a>
-							</li>
-							<li><a href="#goods">ТОВАРЫ</a></li>
-							<li><a href="#">БЛОГ</a></li>
-							<li>
-								<a href="contacts.html" target="_blank"
-									><span style="color: #debe80">КОНТАКТЫ</span></a
-								>
-							</li>
-							<li>
-								<a href="#"
-									><img src="MainPage/images/cart.png" class="nav-img"
-								/></a>
-							</li>
-						</ul>
-					</div>
-				</nav>
+		<!-- HEADER | NAVIGATION -->
+		<header class="content-spacing">
+			<div id="main" class="logo-container">
+				<a href="index.html	">
+					<img src="images/logo.png" class="logo" />
+				</a>
 			</div>
+			<div class="hamburger">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</div>
+			<nav class="nav-bar">
+				<ul>
+					<li>
+						<a id="main-href" href="index.html"><span>ГЛАВНАЯ</span></a>
+					</li>
+					<li><a href="shop.html">ТОВАРЫ</a></li>
+					<li><a href="#">БЛОГ</a></li>
+					<li>
+						<a href="contacts.html" class="active">КОНТАКТЫ</a>
+					</li>
+					<li>
+						<a href="#"><img src="images/cart.png" class="nav-img" /></a>
+					</li>
+				</ul>
+			</nav>
 		</header>
 		<section class="contact-section">
 			<!-- HEADER -->
@@ -158,5 +157,6 @@
 				</div>
 			</div>
 		</section>
+		<script src="css/navigation.js"></script>
 	</body>
 </html>
