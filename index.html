@@ -4,13 +4,14 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Хлопковое Достояние | Новая Версия</title>
-		<link rel="stylesheet" href="MainPage/fonts.css" />
-		<link rel="stylesheet" href="MainPage/general.css" />
-		<link rel="stylesheet" href="MainPage/head.css" />
-		<link rel="stylesheet" href="MainPage/body.css" />
-		<link rel="stylesheet" href="MainPage/tail.css" />
-		<link rel="icon" href="MainPage/images/favicon3.png" />
-		<link rel="stylesheet" href="MainPage/swiper.css" />
+		<link rel="stylesheet" href="css/fonts.css" />
+		<link rel="icon" href="images/favicon.png" />
+		<link
+			rel="stylesheet"
+			href="css/index.css
+		"
+		/>
+		<link rel="stylesheet" href="css/swiper.css" />
 		<link
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -18,40 +19,32 @@
 	</head>
 	<body>
 		<!-- HEADER | NAVIGATION -->
-		<header>
-			<div class="content-spacing">
-				<nav>
-					<div id="main">
-						<a href="index.html	">
-							<img src="MainPage/images/logoN.png" class="logo" />
-						</a>
-					</div>
-					<div>
-						<ul>
-							<li>
-								<a id="main-href" href="#"
-									><span style="color: #debe80">ГЛАВНАЯ</span></a
-								>
-							</li>
-							<li><a href="#goods">ТОВАРЫ</a></li>
-							<li><a href="#">БЛОГ</a></li>
-							<li>
-								<a href="contacts.html">КОНТАКТЫ</a>
-							</li>
-							<li>
-								<a href="#"
-									><img src="MainPage/images/cart.png" class="nav-img"
-								/></a>
-							</li>
-							<li>
-								<a href="#"
-									><img src="MainPage/images/loupe.png" class="nav-img"
-								/></a>
-							</li>
-						</ul>
-					</div>
-				</nav>
+		<header class="content-spacing">
+			<div id="main" class="logo-container">
+				<a href="index.html	">
+					<img src="images/logo.png" class="logo" />
+				</a>
 			</div>
+			<div class="hamburger">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</div>
+			<nav class="nav-bar">
+				<ul>
+					<li>
+						<a id="main-href" href="#"><span class="active">ГЛАВНАЯ</span></a>
+					</li>
+					<li><a href="shop.html">ТОВАРЫ</a></li>
+					<li><a href="#">БЛОГ</a></li>
+					<li>
+						<a href="contacts.html">КОНТАКТЫ</a>
+					</li>
+					<li>
+						<a href="#"><img src="images/cart.png" class="nav-img" /></a>
+					</li>
+				</ul>
+			</nav>
 		</header>
 		<!-- MAIN | BACKGROUND IMAGE -->
 		<section class="sale-section">
@@ -77,42 +70,41 @@
 				<span style="font-weight: 700">ПРЕИМУЩЕСТВА</span>
 			</h2>
 			<div class="yellowline"></div>
-			<div class="content-spacing">
-				<div class="section2-flex">
-					<!-- 1 -->
-					<div class="flex-container">
-						<img src="MainPage/images/Vectors/Cutton.svg" class="shopinfo" />
-						<h3>Lorem Ipsum</h3>
-						<p>
-							variations of passages of Lorem <br />
-							Ipsum available
-						</p>
-					</div>
-					<!-- 2 -->
-					<div class="flex-container">
-						<img src="MainPage/images/Vectors/Quality.svg" class="shopinfo" />
-						<h3>Lorem ipsum</h3>
-						<p>
-							variations of passages of Lorem <br />
-							Ipsum available
-						</p>
-					</div>
-					<!-- 3 -->
-					<div class="flex-container">
-						<img src="MainPage/images/Vectors/Box.svg" class="shopinfo" />
-						<h3>Lorem Ipsum</h3>
-						<p>
-							variations of passages of Lorem <br />
-							Ipsum available
-						</p>
-					</div>
+			<div class="section2-flex content-spacing">
+				<!-- 1 -->
+				<div class="flex-container">
+					<img src="images/Vectors/Cutton.svg" class="shopinfo" />
+					<h3>Lorem Ipsum</h3>
+					<p>
+						variations of passages of Lorem <br />
+						Ipsum available
+					</p>
+				</div>
+				<!-- 2 -->
+				<div class="flex-container">
+					<img src="images/Vectors/Quality.svg" class="shopinfo" />
+					<h3>Lorem ipsum</h3>
+					<p>
+						variations of passages of Lorem <br />
+						Ipsum available
+					</p>
+				</div>
+				<!-- 3 -->
+				<div class="flex-container">
+					<img src="images/Vectors/Box.svg" class="shopinfo" />
+					<h3>Lorem Ipsum</h3>
+					<p>
+						variations of passages of Lorem <br />
+						Ipsum available
+					</p>
 				</div>
 			</div>
 		</section>
+		<!-- SECTION 3 -->
 		<!-- ABOUT COMPANY -->
 		<section class="section-three">
 			<img
-				src="MainPage/images/shutterstock_2223733319 1.png"
+				src="images/shutterstock_2223733319 1.png"
 				class="section-three-img"
 			/>
 			<div class="arrivals">
@@ -128,6 +120,7 @@
 				<a href="#"><button class="">Lorem Ipsum</button></a>
 			</div>
 		</section>
+		<!-- SECTION 4 -->
 		<!-- PRODUCTS -->
 		<section class="goods-section">
 			<h2 id="goods" class="headers">
@@ -140,7 +133,7 @@
 					<!-- new row -->
 					<div class="item-container">
 						<div class="img-centered">
-							<img src="MainPage/images/items/faz-gc.JPG" class="item-image" />
+							<img src="images/items/FAZ_5968.JPG" class="item-image" />
 						</div>
 						<div class="item-info">
 							<p class="item-name">CUCCI</p>
@@ -149,7 +142,7 @@
 					</div>
 					<div class="item-container">
 						<div class="img-centered">
-							<img src="MainPage/images/items//faz-g.jpg" class="item-image" />
+							<img src="images/items/FAZ_5962.jpg" class="item-image" />
 						</div>
 						<div class="item-info">
 							<p class="item-name">ФУТБОЛКА</p>
@@ -158,7 +151,7 @@
 					</div>
 					<div class="item-container">
 						<div class="img-centered">
-							<img src="MainPage/images/items/faz-drs.jpg" class="item-image" />
+							<img src="images/items/FAZ_5973.JPG" class="item-image" />
 						</div>
 						<div class="item-info">
 							<p class="item-name">
@@ -171,7 +164,7 @@
 					<!-- new row -->
 					<div class="item-container">
 						<div class="img-centered">
-							<img src="MainPage/images/items/faz-r.jpg" class="item-image" />
+							<img src="images/items/FAZ_5976.JPG" class="item-image" />
 						</div>
 						<div class="item-info">
 							<p class="item-name">ФУТБОЛКА</p>
@@ -180,7 +173,7 @@
 					</div>
 					<div class="item-container">
 						<div class="img-centered">
-							<img src="MainPage/images/items/faz-bmt.jpg" class="item-image" />
+							<img src="images/items/FAZ_5977.JPG" class="item-image" />
 						</div>
 						<div class="item-info">
 							<p class="item-name">ФУТБОЛКА</p>
@@ -189,7 +182,7 @@
 					</div>
 					<div class="item-container">
 						<div class="img-centered">
-							<img src="MainPage/images/items/faz-b.jpg" class="item-image" />
+							<img src="images/items/FAZ_5983.JPG" class="item-image" />
 						</div>
 						<div class="item-info">
 							<p class="item-name">ФУТБОЛКА</p>
@@ -197,22 +190,9 @@
 						</div>
 					</div>
 				</div>
+				<a href="shop.html" class="show-more">Show more</a>
 			</div>
 		</section>
-		<!-- SUBSCRIBE SECTION -->
-		<!-- <section class="input-section">
-			<h3>ПОДПИСАТЬСЯ И ПОЛУЧИТЬ СКИДКУ</h3>
-			<p>
-				Lorem ipsum dolor sit amet consectetur. Viverra quam dictum pellentesque
-				augue
-			</p>
-			<div class="form-center">
-				<form>
-					<input type="text" placeholder="Введите адрес электронной почты" />
-					<button type="submit" class="input-btn">ПОДПИСАТЬСЯ</button>
-				</form>
-			</div>
-		</section> -->
 		<!-- TEAM SECTION -->
 		<section class="team-section">
 			<h1>НАША КОМАНДА</h1>
@@ -221,8 +201,36 @@
 			<div class="swiper mySwiper">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="MainPage/images/Team/Profile.jpg" />
+						<img src="images/Team/photo6.jpg" />
+						<p class="member-name">Даниель Крид</p>
+						<p class="member-position">Эластичный Директор</p>
+
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur. Viverra quam dictum
+							pellentesque augue quam tristique <br />
+							ornare. Risus tristique convallis vitae diam dui nunc diam lorem.
+							Sollicitudin auctor eget nunc viverra <br />
+							justo ac morbi urna ut. Vel porta sagittis diam pellentesque eu
+							turpis malesuada aliquam.
+						</p>
+					</div>
+					<div class="swiper-slide">
+						<img src="images/Team/photo2.jpg" />
 						<p class="member-name">Анна Трэвор</p>
+						<p class="member-position">Маркетолог</p>
+
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur. Viverra quam dictum
+							pellentesque augue quam tristique <br />
+							ornare. Risus tristique convallis vitae diam dui nunc diam lorem.
+							Sollicitudin auctor eget nunc viverra <br />
+							justo ac morbi urna ut. Vel porta sagittis diam pellentesque eu
+							turpis malesuada aliquam.
+						</p>
+					</div>
+					<div class="swiper-slide">
+						<img src="images/Team/photo1.jpg" />
+						<p class="member-name">Лиза Краснова</p>
 						<p class="member-position">Дизайнер Одежды</p>
 
 						<p class="description">
@@ -235,9 +243,9 @@
 						</p>
 					</div>
 					<div class="swiper-slide">
-						<img src="MainPage/images/Team/Profile.jpg" />
-						<p class="member-name">Анна Трэвор</p>
-						<p class="member-position">Дизайнер Одежды</p>
+						<img src="images/Team/photo4.jpg" />
+						<p class="member-name">Тайлер Дерден</p>
+						<p class="member-position">Основатель клуба</p>
 
 						<p class="description">
 							Lorem ipsum dolor sit amet consectetur. Viverra quam dictum
@@ -249,37 +257,9 @@
 						</p>
 					</div>
 					<div class="swiper-slide">
-						<img src="MainPage/images/Team/Profile.jpg" />
-						<p class="member-name">Анна Трэвор</p>
-						<p class="member-position">Дизайнер Одежды</p>
-
-						<p class="description">
-							Lorem ipsum dolor sit amet consectetur. Viverra quam dictum
-							pellentesque augue quam tristique <br />
-							ornare. Risus tristique convallis vitae diam dui nunc diam lorem.
-							Sollicitudin auctor eget nunc viverra <br />
-							justo ac morbi urna ut. Vel porta sagittis diam pellentesque eu
-							turpis malesuada aliquam.
-						</p>
-					</div>
-					<div class="swiper-slide">
-						<img src="MainPage/images/Team/Profile.jpg" />
-						<p class="member-name">Анна Трэвор</p>
-						<p class="member-position">Дизайнер Одежды</p>
-
-						<p class="description">
-							Lorem ipsum dolor sit amet consectetur. Viverra quam dictum
-							pellentesque augue quam tristique <br />
-							ornare. Risus tristique convallis vitae diam dui nunc diam lorem.
-							Sollicitudin auctor eget nunc viverra <br />
-							justo ac morbi urna ut. Vel porta sagittis diam pellentesque eu
-							turpis malesuada aliquam.
-						</p>
-					</div>
-					<div class="swiper-slide">
-						<img src="MainPage/images/Team/Profile.jpg" />
-						<p class="member-name">Анна Трэвор</p>
-						<p class="member-position">Дизайнер Одежды</p>
+						<img src="images/Team/photo3.jpg" />
+						<p class="member-name">Антон</p>
+						<p class="member-position">Он с нами по приколу</p>
 
 						<p class="description">
 							Lorem ipsum dolor sit amet consectetur. Viverra quam dictum
@@ -299,7 +279,7 @@
 		<footer id="footer">
 			<!-- Left -->
 			<div class="footer-left-section">
-				<img src="MainPage/images/logoN.png" class="footer-logo" />
+				<img src="images/logo.png" class="footer-logo" />
 				<p class="company-details">
 					<span class="bold-txt">Адрес:</span>
 					<a
@@ -317,8 +297,8 @@
 					>
 				</p>
 			</div>
-			<!-- Middle -->
-			<div class="footer-middle-section">
+			<!-- Right -->
+			<div class="footer-right-section">
 				<h1>МЕНЮ</h1>
 				<p>
 					<a href="#main"
@@ -328,21 +308,11 @@
 				<p><a href="#">О НАС</a></p>
 				<p><a href="#advantages">ПРЕИМУЩЕСТВА</a></p>
 				<p><a href="#goods">ПРОДУКЦИЯ</a></p>
-				<p><a href="#">КОНТАКТЫ</a></p>
+				<p><a href="contacts.html">КОНТАКТЫ</a></p>
 			</div>
-			<!-- Right -->
-			<!-- <div class="footer-right-section">
-				<h1>
-					ПОДПИСАТЬСЯ <br />
-					И ПОЛУЧИТЬ СКИДКУ
-				</h1>
-				<form>
-					<input type="text" placeholder="Введите адрес электронной почты" />
-					<button type="submit">ПОДПИСАТЬСЯ</button>
-				</form>
-			</div> -->
 		</footer>
 		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="css/navigation.js"></script>
 		<script>
 			var swiper = new Swiper('.mySwiper', {
 				navigation: {
