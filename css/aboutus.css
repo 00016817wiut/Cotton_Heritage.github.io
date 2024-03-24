@@ -58,7 +58,7 @@ header {
   height: 55vh;
   width: 100%;
   background-size: cover;
-  background-image: url("images/background/nebo.jpg");
+  background-image: url("./images/background/nebo.jpg");
   /* background-image: url("/images/wallpaper2.jpg"); */
 }
 .aboutus h1 {
