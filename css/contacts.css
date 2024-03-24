@@ -79,11 +79,15 @@ header {
 }
 
 .contact-bg h3 {
-  font-size: 1.3rem;
-  font-weight: 400;
+  padding-top: 2rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 .contact-bg h2 {
-  font-size: 3rem;
+  margin: 0.5rem 0 0.7rem;
+  font-size: 4rem;
   text-transform: uppercase;
   padding: 0.4rem 0;
   letter-spacing: 4px;
@@ -336,7 +340,7 @@ textarea {
     left: 0;
     right: 0;
     width: 100vw;
-    background-color: #d3d3d3;
+    background-color: #f6eeee;
 
     transition: 0.2s;
     overflow: hidden;
@@ -371,6 +375,9 @@ textarea {
   .button-27 {
     margin-top: 0.5rem;
     width: 320px;
+  }
+  .contact-bg h2 {
+    font-size: 3rem;
   }
 }
 @media screen and (max-width: 440px) {
