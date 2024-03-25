@@ -67,7 +67,7 @@ header {
 .contact-bg {
   height: 50vh;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-    url("../images/background/alt.jpg");
+    url("./images/background/alt.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
