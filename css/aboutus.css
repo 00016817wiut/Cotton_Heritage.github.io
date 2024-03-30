@@ -97,10 +97,10 @@ header {
 }
 @media screen and (max-width: 400px) {
   .backimg-section {
-    height: 25vh;
+    height: 35vh;
   }
   .aboutus-h1 {
-    font-size: 30px;
+    font-size: 35px;
     padding: 12vh 0 0 0;
   }
   .headerss br {
