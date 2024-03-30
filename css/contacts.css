@@ -330,7 +330,7 @@ textarea {
   .hamburger .line {
     width: 30px;
     height: 3px;
-    background-color: #111;
+    background-color: #fff;
     margin: 6px;
   }
   .nav-bar {
