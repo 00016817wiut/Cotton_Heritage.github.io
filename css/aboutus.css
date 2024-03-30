@@ -1,0 +1,112 @@
+/* HEADER | NAVIGATION */
+.content-spacing {
+  margin: auto;
+  width: 60%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0 0.5rem 0;
+  font-family: "Montserrat", sans-serif;
+}
+.active {
+  color: #debe80;
+}
+.nav-bar ul {
+  display: flex;
+}
+.nav-bar ul li {
+  list-style: none;
+  font-weight: bold;
+  margin-right: 2rem;
+}
+.nav-bar ul li a {
+  display: block;
+  transition: 0.3s;
+  font-size: 1rem;
+}
+
+.nav-bar ul li a:hover {
+  color: #8d8d8d;
+  text-decoration: none;
+}
+.side-bar {
+  position: fixed;
+  z-index: 100;
+  background-color: white;
+}
+.hamburger {
+  display: none;
+}
+/* BACKGROUND IMAGE SECTION */
+
+.aboutus-h1 {
+  font-size: 100px;
+  padding: 18vh 0 0 0;
+  margin: auto 0;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.backimg-section {
+  height: 55vh;
+  width: 100%;
+  background-size: cover;
+  background-image: url("/images/nebo.jpg");
+}
+.aboutus h1 {
+  text-align: center;
+}
+.bold {
+  font-weight: bold;
+}
+/* MAIN CONTENT SECTION */
+.headerss {
+  margin-top: 4rem;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+.headerss br {
+  display: none;
+}
+.aboutus p {
+  text-align: justify;
+}
+@media screen and (max-width: 800px) {
+  .aboutus-h1 {
+    font-size: 60px;
+    padding: 21vh 0 0 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .backimg-section {
+    height: 35vh;
+  }
+  .aboutus-h1 {
+    font-size: 50px;
+    padding: 15vh 0 0 0;
+  }
+  .headerss br {
+    display: block;
+  }
+  .headerss {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .backimg-section {
+    height: 25vh;
+  }
+  .aboutus-h1 {
+    font-size: 30px;
+    padding: 12vh 0 0 0;
+  }
+  .headerss br {
+    display: block;
+  }
+  .headerss {
+    font-size: 1.5rem;
+  }
+}

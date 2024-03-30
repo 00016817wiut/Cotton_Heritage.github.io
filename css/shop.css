@@ -1,0 +1,129 @@
+/* SECTION 1 */
+.shop-section {
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-image: url("/images/Untitled-2.jpg");
+}
+.sub-header {
+  background-color: #695553;
+  padding: 1rem;
+  color: white;
+}
+
+.sub-header ul {
+  display: flex;
+  padding: 0;
+}
+.sub-header ul li {
+  list-style: none;
+  padding-right: 1rem;
+}
+.sub-header ul li a {
+  color: white;
+  text-decoration: none;
+}
+.sub-header ul li a:hover {
+  text-decoration: underline;
+  text-decoration-color: #debe80;
+  text-decoration-thickness: 0.1rem;
+}
+/* SECTION 2 | 3 DIVS*/
+.saleoff-shop-container {
+  padding-top: 3rem;
+  text-align: center;
+}
+.category-img {
+  height: 4rem;
+}
+
+.saleoff-shop-container h1 {
+  font-size: 7rem;
+  color: rgb(255, 255, 255);
+}
+.saleoff-shop-container button {
+  margin-top: 0rem;
+  background-color: #debe80;
+  padding: 0.9rem 2.8rem;
+  border: 1px solid #debe80;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.5s;
+}
+.saleoff-shop-container button:hover {
+  background-color: #debf805b;
+  color: #ffffff;
+  cursor: pointer;
+}
+.section2-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.flex-container-shop {
+  justify-content: center;
+  width: 15.4rem;
+  height: 13.5rem;
+  margin: auto;
+  background-color: #695553;
+  color: white;
+  border: 1px solid #695553;
+  border-radius: 0.7rem;
+}
+.flex-container-shop img {
+  display: inline-block;
+  margin-top: 3rem;
+}
+.flex-container-shop p {
+  line-height: 1.5rem;
+  margin: 0;
+  font-weight: 500;
+}
+@media screen and (max-width: 830px) {
+  .shop-section h1 {
+    margin-top: 8rem;
+    font-size: 90px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .shop-section h1 {
+    margin-top: 9rem;
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .shop-section h1 {
+    margin-top: 12rem;
+    font-size: 50px;
+    line-height: 4rem;
+    font-weight: bolder;
+  }
+  .shop-section {
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url("/images/Untitled-2.jpg");
+    background-position: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .shop-section h1 {
+    margin-top: 10rem;
+    font-size: 35px;
+    line-height: 3rem;
+    font-weight: bolder;
+  }
+  .sub-header {
+    padding: 1rem 0.5rem;
+    color: white;
+    margin: 0;
+  }
+  .sub-header ul li {
+    list-style: none;
+    padding-right: 0.5rem;
+  }
+}
