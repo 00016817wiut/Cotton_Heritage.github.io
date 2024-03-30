@@ -52,7 +52,7 @@ header {
   height: 55vh;
   width: 100%;
   background-size: cover;
-  background-image: url("/images/nebo.jpg");
+  background-image: url("./images/nebo.jpg");
 }
 .aboutus h1 {
   text-align: center;
